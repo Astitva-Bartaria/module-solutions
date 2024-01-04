@@ -1,0 +1,217 @@
+/* header code */
+.navbar {
+  background-color: black;
+}
+
+#nav-toggle-button {
+  background-color: #ffc107;
+  margin-right: 10px;
+}
+
+#headerlogo {
+  width: 4rem;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#headerbrandname {
+  color: #ffc107;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 35px;
+}
+
+#headerloginbtn {
+  width: 6.5rem;
+}
+
+#headerloginbtn:hover {
+  font-weight: 700;
+  background-color: #e5ac00;
+}
+
+#headerbtn {
+  width: 6rem;
+}
+
+#headerbtn:hover {
+  font-weight: 700;
+  background-color: #e5ac00;
+}
+
+#headercartlogo {
+  font-size: 30px;
+  color: #ffc107;
+}
+
+#headercartlogo:hover {
+  font-size: 33px;
+  color: #e5ac00;
+}
+
+.headerpadding {
+  padding: 10px;
+}
+
+.nav {
+  background-color: rgba(210, 210, 210, 0.3);
+  border-bottom: 1px solid black;
+}
+
+/* ****************************************************************************************************************************************************** */
+/* footer code */
+footer {
+  background-color: #000000;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.footer-section h5 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-section p {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
+.footer-section a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-line {
+  height: 2px;
+  background-color: #ffffff;
+  border: none;
+}
+
+/* ****************************************************************************************************************************************************** */
+
+/* home page code */
+.homesection1 {
+  height: 50rem;
+  background-image: url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homediv1 {
+  background: rgba(25, 20, 0, 0.6);
+  height: 100%;
+  width: 100%;
+}
+
+.homelogo {
+  margin-top: 70px;
+  height: 15rem;
+}
+
+#homebrandname {
+  color: #ffc107;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 5rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#brandslogan {
+  color: #ffc107;
+  font-weight: 900;
+  font-size: x-large;
+  font-style: italic;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.card-wrapper {
+  display: inline-flex;
+}
+
+.featuredproducts {
+  margin: 1.2em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.2);
+}
+
+@media screen and (max-width: 765px) {
+  .featuredproducts:not(:first-child) {
+    display: none;
+  }
+}
+
+.carousel-control-prev-icon {
+  position: absolute;
+  left: 15px;
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+  right: 15px;
+}
+
+.productimage {
+  height: 20rem;
+  width: 100%;
+}
+
+.productheading {
+  background-color: #ffc107;
+  margin-top: 15px;
+  padding: 15px;
+  font-weight: bold;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.productcards {
+  width: 14rem;
+  margin-top: 20px;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.2);
+}
+
+.productcardbody {
+  background-color: black;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.productcarticon {
+  font-size: 15px;
+  color: #000000;
+  margin-right: 6px;
+}
+
+.productcardbtn:hover {
+  font-weight: 700;
+}
+
+.sectionpadding {
+  padding-bottom: 100px;
+}
+
+.sectioncolor {
+  background-color: rgba(255, 193, 7, 0.2);
+}
+
+/* ****************************************************************************************************************************************************** */

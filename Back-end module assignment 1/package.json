@@ -1,0 +1,16 @@
+{
+  "name": "back-end-module-assignment-1",
+  "version": "1.0.0",
+  "description": "This is back-end module assignment 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Astitva Bartaria",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "node-persist": "^3.1.3"
+  }
+}
